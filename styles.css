@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital,wght@0,400..700;1,400..700&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap');
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin: auto;
+}
+
+.navbar {
+    font-family: "Red Hat Text", sans-serif;
+    border-bottom: 3px solid #0b5430;
+    background-color: white;
+    
+    @supports (position: sticky) {
+    position: sticky;
+    width: 100%;
+    top: 0;
+    z-index: $zindex-sticky;}
+}
+
+.navdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+*{
+    text-decoration: none !important;
+    color: black;
+    scroll-margin-top: 70px;
+}
+
+.logo {
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.navbarli {
+    list-style: none;
+    display: inline-block;
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 25px;
+}
+
+.pagesplitterdiv {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    column-gap: 5%;
+}
+
+.profile-picture {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.publication-div {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    column-gap: 5%;
+}
+
+.publication-picture {
+    width: 100%;
+}
+
+.publication-title {
+    font-family: "Red Hat Text", sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    margin-top: 0px;
+}
+
+.publication-author {
+    font-family: "Red Hat Text", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.journal {
+    font-family: "Red Hat Text", sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    display: inline-block;
+}
+
+.publication-date {
+    font-family: "Red Hat Text", sans-serif;
+    font-weight: 400;
+    display: inline-block;
+}
+
+.doi {
+    font-family: "Red Hat Text", sans-serif;
+    display: inline-block;
+    font-size: 20px;
+    color: #0b5430;
+}
+
+summary {
+    font-family: "Baskervville", serif;
+    font-size: 20px;
+}
+
+.abstract {
+    font-weight: normal;
+    font-size: 15px;
+    font-family: "Baskervville", serif;
+    text-align: justify;
+}
+
+.page-section {
+    margin-bottom: 30px;
+}
+
+p {
+    font-weight: normal;
+    font-size: 20px;
+    font-family: "Baskervville", serif;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+h1 {
+    font-family: "Red Hat Text", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    border-bottom: 3px solid #0b5430;
+    margin-top: 0px;
+}
+
+strong {
+    font-weight: 700;
+    color:#0b5430
+}
