@@ -3,7 +3,7 @@
 main {
     display: flex;
     flex-direction: column;
-    width: 95%;
+    width: 90%;
     margin: auto;
 }
 
@@ -57,7 +57,7 @@ main {
 }
 
 .publication-div {
-    margin-top: 30px;
+    margin-top: 50px;
     display: grid;
     grid-template-columns: 1fr 4fr;
     column-gap: 5%;
@@ -102,14 +102,82 @@ main {
 
 summary {
     font-family: "Baskervville", serif;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .abstract {
     font-weight: normal;
-    font-size: 15px;
+    font-size: 20px;
     font-family: "Baskervville", serif;
     text-align: justify;
+}
+
+.first-level-list {
+    font-weight: 700;
+    font-size: 25px;
+    font-family: "Red Hat Text", sans-serif;
+    text-align: justify;
+    margin: 50px;
+
+    padding-left: 3rem;
+    background-image: url('img/bullet-point-lvl-1.png');
+    background-position: 0 5px;
+    background-size: 1.6rem 1.6rem;
+    background-repeat: no-repeat;
+    list-style-type: none;
+}
+
+.second-level-list {
+    font-weight: 600;
+    font-size: 22px;
+    font-family: "Red Hat Text", sans-serif;
+    text-align: justify;
+    margin: 20px;
+
+    padding-left: 2.5rem;
+    background-image: url('img/bullet-point-lvl-2.png');
+    background-position: 0 6px;
+    background-size: 1.2rem 1.2rem;
+    background-repeat: no-repeat;
+    list-style-type: none;
+}
+
+.third-level-list {
+    font-weight: 500;
+    font-size: 18px;
+    font-family: "Red Hat Text", sans-serif;
+    text-align: justify;
+    margin: 10px;
+
+    padding-left: 2rem;
+    background-image: url('img/bullet-point-lvl-3.png');
+    background-position: 0 6px;
+    background-size: 0.9rem 0.9rem;
+    background-repeat: no-repeat;
+    list-style-type: none;
+}
+
+.list-item-desc {
+    font-weight: 400;
+    font-size: 20px;
+    font-family: "Red Hat Text", sans-serif;
+    text-align: justify;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+
+.skill-div {
+    font-weight: 700;
+    font-size: 25px;
+    font-family: "Red Hat Text", sans-serif;
+}
+
+.skill-list {
+    font-weight: 600;
+    font-size: 22px;
+    font-family: "Red Hat Text", sans-serif;
+    margin: 20px;
+    line-height: 1.5em;
 }
 
 .page-section {
@@ -118,7 +186,7 @@ summary {
 
 p {
     font-weight: normal;
-    font-size: 20px;
+    font-size: 25px;
     font-family: "Baskervville", serif;
     text-align: justify;
     line-height: 1.5;
