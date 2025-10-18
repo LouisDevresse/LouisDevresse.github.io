@@ -10,6 +10,7 @@
     <title>Louis Devresse</title>
     <link rel="shortcut icon" href="img/favicon2.png" />
     <link rel="stylesheet" href="styles.css" />
+    <script src="reactive-navbar-script.js"></script>
   </head>
   <body style="padding-bottom: 1000px">
     <main>
@@ -40,41 +41,49 @@
         <!--Main content on the right-->
         <div>
           <!--About section-->
-          <section class="page-section">
-            <h1 id="About">About</h1>
+          <section id="About" class="page-section">
+            <h1>About</h1>
+
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Exercitationem repudiandae perspiciatis nemo distinctio provident
-              enim, consequuntur vitae quos nam vero modi amet possimus aut
-              aliquid nobis debitis reiciendis neque rerum delectus soluta
-              minima. Deleniti facilis recusandae, dolor, asperiores aspernatur
-              quod ea quidem, consectetur repudiandae maiores explicabo
-              reprehenderit? Ipsam tempora placeat ullam eos sint quos magni,
-              iusto aperiam dolorem, non, ex aliquam. Recusandae cupiditate ad
-              facere obcaecati distinctio itaque iste cum, qui veniam hic
-              perspiciatis, ex consequuntur incidunt voluptatibus voluptatum
-              nesciunt laborum voluptatem suscipit soluta aspernatur laboriosam
-              perferendis reprehenderit eveniet illo? Voluptatem repellendus
-              culpa natus consectetur eligendi minima, dolore optio eveniet
-              corporis quisquam molestias sunt omnis ut placeat in asperiores
-              nisi quam sequi blanditiis voluptas! Mollitia consectetur tempora
-              illum debitis consequatur. Dignissimos tempore recusandae
-              deserunt, quis nostrum velit molestiae excepturi, optio voluptates
-              error debitis dolorem quo exercitationem modi aliquid inventore
-              eum vitae sapiente est ullam vero fugit? Veritatis aspernatur,
-              voluptas atque mollitia cumque exercitationem cupiditate.
-              Accusantium harum, neque cumque saepe, dolorum temporibus magni
-              ullam obcaecati odio accusamus eveniet at enim inventore, labore
-              omnis asperiores. Ad quidem atque vero reiciendis consequatur
-              sequi suscipit libero, debitis recusandae maiores repudiandae
-              doloribus dolores molestiae similique voluptatibus sapiente,
-              aliquam magni! Tenetur, incidunt culpa. Vitae, sit facilis!
+              My name is Louis Devresse, and I am currently a PhD student at the
+              Centre d'Ecologie Fonctionnelle et Evolutive (<a
+                class="textlink"
+                href="https://www.cefe.cnrs.fr/fr/"
+                >CEFE</a
+              >) in Montpellier. My research focuses on
+              <strong>evolution</strong>
+              in <strong>multi-species contexts</strong>, bridging theoretical
+              approaches with more "realistic",
+              <strong>process-based models</strong> used to predict how species
+              will respond to <strong>climate change</strong>.
+            </p>
+
+            <p>
+              During my PhD, I have integrated evolutionary processes into
+              mechanistic models that simulate forest dynamics and how forests
+              respond to climate variations. A central question in my work is
+              understanding how
+              <strong>interspecific interactions</strong> between trees, such as
+              competition for water and light, affect their ability to adapt to
+              climate change.
+            </p>
+
+            <p>
+              Looking ahead, I am interested in exploring how
+              <strong>community dynamics</strong>
+              and the properties of species-rich communities can influence
+              species adaptation to environmental changes from a
+              microevolutionary perspective, or even shape speciation and
+              extinction dynamics at a more macroevolutionary scale. If you are
+              interested in collaborating or would like to discuss potential
+              projects, please don't hesitate to
+              <a class="textlink" href="#Contact">contact me</a>!
             </p>
           </section>
 
           <!--Publication section-->
-          <section class="page-section">
-            <h1 id="Publications">Publications</h1>
+          <section id="Publications" class="page-section">
+            <h1>Publications</h1>
 
             <!--First publication-->
             <div class="publication-div">
@@ -303,8 +312,8 @@
           </section>
 
           <!--Career section-->
-          <section class="page-section">
-            <h1 id="Career">Career & Education</h1>
+          <section id="Career" class="page-section">
+            <h1>Career & Education</h1>
 
             <ul style="padding-left: 0px">
               <!--PhD activity-->
@@ -362,17 +371,10 @@
           </section>
 
           <!--Skills section-->
-          <section class="page-section">
-            <h1 id="Skills">Skills</h1>
-            <div
-              style="
-                display: flex;
-                flex-direction: row;
-                margin-top: 30px;
-                justify-content: space-between;
-              "
-            >
-              <div class="skill-div">
+          <section id="Skills" class="page-section">
+            <h1>Skills</h1>
+            <div class="skill-div">
+              <div>
                 Mathematics & Statistics
                 <ul class="skill-list">
                   <li>Modeling</li>
@@ -382,7 +384,7 @@
                 </ul>
               </div>
 
-              <div class="skill-div">
+              <div>
                 Programming
                 <ul class="skill-list">
                   <li>Data analysis with R</li>
@@ -410,7 +412,7 @@
                 </ul>
               </div>
 
-              <div class="skill-div">
+              <div>
                 Languages & Other
                 <ul class="skill-list">
                   <li>French (Native), English (C1)</li>

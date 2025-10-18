@@ -44,6 +44,16 @@ main {
     margin-left: 25px;
 }
 
+.navbarli a.active {
+    font-size: 30px;
+    font-weight: 700;
+    transition: font-size 0.2s ease;
+}
+
+.navbarli a {
+    transition: font-size 0.2s ease;
+}
+
 .pagesplitterdiv {
     margin-top: 30px;
     display: grid;
@@ -170,6 +180,11 @@ summary {
     font-weight: 700;
     font-size: 25px;
     font-family: "Red Hat Text", sans-serif;
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    justify-content: space-between;
+    gap: 30px;
 }
 
 .skill-list {
@@ -203,4 +218,8 @@ h1 {
 strong {
     font-weight: 700;
     color:#0b5430
+}
+
+.textlink {
+    color: #0b5430;
 }
